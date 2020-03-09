@@ -1,12 +1,12 @@
 import socket
 
-x_size = 10
-y_size = 25
-pixel_count = 250
+x_size = 8
+y_size = 30
+pixel_count = 240
 channel_count = pixel_count * 3
 pixels_per_universe = 170
 universe_count = 2
-artnet_host = '172.20.0.3'
+artnet_host = '10.0.0.136'
 
 print('#GLEDIATOR Patch File')
 print('Patch_Matrix_Size_X=%d' % x_size)
