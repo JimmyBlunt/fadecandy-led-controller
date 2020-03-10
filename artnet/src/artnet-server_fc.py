@@ -13,8 +13,8 @@ from twisted.internet import reactor
 numLEDs = 250
 client = opc.Client('10.0.0.136:7890')
 black = (0, 0, 0)
-x_size = 10
-y_size = 25
+x_size = 8
+y_size = 30
 
 # This tells the software where the split between 2 universes is
 uni_1_y_size = 17
